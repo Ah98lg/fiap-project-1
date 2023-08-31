@@ -1,0 +1,58 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.redBox {
+  height: 100%;
+  width: 300px;
+  border: 1px solid #660000;
+  border-bottom: 7px solid #660000;
+}
+
+.blueBox {
+  height: 100%;
+  width: 300px;
+  border: 1px solid #1b8d99;
+  border-bottom: 7px solid #1b8d99;
+}
+
+.description {
+  padding: 0 0.8rem;
+}
+
+.blueBox > .description > p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1b8d99;
+  font-size: 13px;
+}
+
+.redBox > .description > p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #660000;
+  font-size: 13px;
+}
+
+.redBox > .description > h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #660000;
+  font-size: 17px;
+}
+
+.blueBox > .description > h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1b8d99;
+  font-size: 17px;
+}
+
+.blueBox > footer {
+  height: 5px;
+  background-color: #1b8d99;
+}
+
+.redBox > footer {
+  height: 5px;
+  background-color: #660000;
+}

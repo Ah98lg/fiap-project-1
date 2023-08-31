@@ -1,0 +1,28 @@
+.bottomMenu {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  height: 100%;
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+li:hover {
+  transform: scale(1.58);
+  transition: transform 0.2s ease-in-out;
+  background-color: white;
+  color: #660000;
+  cursor: pointer;
+}
